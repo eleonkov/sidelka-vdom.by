@@ -11713,6 +11713,7 @@ header.masthead .h1 {
 .showcase .showcase-img {
   min-height: 30rem;
   background-size: cover;
+      background-position: center;
 }
 @media (min-width: 768px) {
   .showcase .showcase-text {
@@ -11816,4 +11817,16 @@ footer.footer {
 .contact {
         padding-top: 5rem;
     padding-bottom: 5rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .navbar-nav {
+    display: none
+
+
+  }
+
+  .navbar .btn {
+    padding: 0.3rem 0.5rem;
+  }
 }
