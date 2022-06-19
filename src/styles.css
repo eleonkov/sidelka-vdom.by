@@ -11713,7 +11713,7 @@ header.masthead .h1 {
 .showcase .showcase-img {
   min-height: 30rem;
   background-size: cover;
-      background-position: center;
+  background-position: center;
 }
 @media (min-width: 768px) {
   .showcase .showcase-text {
@@ -11758,14 +11758,14 @@ footer.footer {
 }
 
 .navbar-brand {
-      font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
 }
 
 .navbar-brand span:first-child {
   display: block;
   font-size: 1.5rem;
-    font-weight: bold;
-    color: #89747c;
+  font-weight: bold;
+  color: #89747c;
 }
 
 .navbar-brand span:last-child {
@@ -11800,33 +11800,35 @@ footer.footer {
 }
 
 .testimonials .card {
-    height: 100%
+  height: 100%;
 }
 
 .call-to-action .wrapper {
-    position: relative;
-    color: #000;
+  position: relative;
+  color: #000;
 }
 
 .call-to-action .wrapper:before {
-    content: '';
-    background-color: #000;
-    opacity: .9
+  content: "";
+  background-color: #000;
+  opacity: 0.9;
 }
 
 .contact {
-        padding-top: 5rem;
-    padding-bottom: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 @media only screen and (max-width: 500px) {
   .navbar-nav {
-    display: none
-
-
+    display: none;
   }
 
   .navbar .btn {
     padding: 0.3rem 0.5rem;
   }
+}
+
+.about-us p {
+  text-align: justify;
 }
