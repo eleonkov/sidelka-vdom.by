@@ -605,7 +605,11 @@ progress {
   display: inline-block;
 }
 .list-inline-item:not(:last-child) {
-  margin-right: 0.5rem;
+  margin-right: 1rem;
+}
+
+.contact-list a {
+  color: #343434;
 }
 
 .initialism {
