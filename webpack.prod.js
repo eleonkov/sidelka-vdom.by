@@ -6,6 +6,9 @@ const commonConfig = require("./webpack.common");
 
 const prodConfig = {
   mode: "production",
+  output: {
+    filename: "[name].[contenthash].js",
+  },
   plugins: [
     new HtmlWebpackPlugin({
       template: "./src/index.html",
